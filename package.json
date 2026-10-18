@@ -1,0 +1,21 @@
+{
+  "name": "startapp",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "StartApp – frontend va backend bitta loyihada",
+  "scripts": {
+    "dev": "node server.js --dev",
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
